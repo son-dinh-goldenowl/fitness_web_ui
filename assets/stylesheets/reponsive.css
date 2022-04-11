@@ -1,0 +1,374 @@
+/* Size class	Breakpoints	Window Sizes
+Small	up to 640px	320x569, 360x640, 480x854
+Medium	641 - 1007px	960x540
+Large	1008ps and up	1024x640, 1366x768, 1920x1080 */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  #banner .content-banner {
+    margin: 10% 0;
+  }
+
+  .body-building .clasess h3,
+  .body-building .standard h3,
+  .body-building .premium h3 {
+    font-size: 20px;
+  }
+
+  .body-building .clasess p,
+  .body-building .standard p,
+  .body-building .premium p {
+    font-size: 15px;
+  }
+
+  #banner .content-banner .repon {
+    line-height: 50px;
+    padding: 5% 0;
+  }
+
+  .row-building {
+    height: 70%;
+  }
+
+  .row-building p {
+    line-height: 50px
+  }
+
+  .recent-news .list-news {
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #header .link-header {
+    width: 100% !important;
+    float: left;
+    background: linear-gradient(110deg, #47b5e7 60%, #000000 0);
+  }
+
+  #header {
+    margin: 0;
+    display: block;
+  }
+
+  #header .logo {
+    float: left;
+  }
+
+  #header .menu {
+    display: block;
+    float: right
+  }
+
+  #header .link-header {
+    display: none;
+  }
+
+  #header .contact {
+    width: 70%;
+  }
+
+  #header .contact .ti-mobile,
+  #header .contact a {
+    display: none;
+  }
+
+  #header .ti-menu {
+    float: right;
+    font-size: 40px;
+    padding: 10px
+  }
+
+  #banner {
+    background-size: 100% 100%;
+  }
+
+  #banner .group-social-network {
+    margin: 30% 0 5%;
+  }
+
+  #banner .btn-start {
+    width: 50%;
+  }
+
+  #banner .group-social-network > div {
+    width: 25%;
+  }
+
+  #banner .content-banner {
+    width: 70%;
+    margin: 15% 0 0;
+    font-size: 20px;
+  }
+
+  #banner .content-banner .repon {
+    font-size: 2rem;
+  }
+
+  .list-news,
+  .body-building,
+  .pictures-meet-team,
+  #footer .info-address {
+    flex-direction: column;
+  }
+
+  .pictures-about-us {
+  }
+
+  .about-us .content {
+    margin: 1% !important;
+  }
+
+  .info-news,
+  .pictures-meet-team > div {
+    width: 100% !important;
+    margin: 1% !important;
+  }
+
+  .about-us .content .title {
+    height: 100%;
+  }
+
+  h1,
+  .title h3,
+  .recent-news h1,
+  .title-test-monials h1,
+  .meet-our-team .title-meet-team h1 {
+    font-size: 30px;
+  }
+
+  .border-title {
+    height: 10px;
+  }
+
+  .subject .title-subject {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .content-slide p,
+  .subject .content-subject,
+  .meet-our-team .title-meet-team p,
+  .our-clasess .title-our-clasess p {
+    font-size: 15px;
+  }
+
+  .content button {
+    width: 30%;
+    height: 30px;
+  }
+
+  .our-clasess .columns .title-pictures-clasess p {
+    font-size: 15px;
+    line-height: 50px;
+  }
+
+  .content-slide p {
+    line-height: 30px;
+  }
+
+  .testmonials .image-client {
+    width: 70px;
+    height: 70px;
+  }
+
+  .recent-news .list-news .info-news .img-news img,
+  .recent-news .list-news .info-news .content-news {
+    min-height: 0;
+  }
+
+  .contact-us h2 {
+    font-size: 25px;
+    padding: 25px;
+  }
+
+  .contact-us .contact-form form {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  .contact-us .contact-form form textarea,
+  .contact-us .contact-form form input {
+    width: 90%;
+  }
+
+  .contact-us .contact-form form button {
+    width: 93%;
+  }
+
+  .contact-us .contact-form .info-mail {
+    width: 90%;
+    margin: 0% 5%;
+    color: #fff;
+  }
+
+  #footer .info-address .address-col-5 {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  #footer .info-address .address-col-5 .logo-footer {
+    width: auto;
+    margin: 0;
+  }
+
+  #footer .info-address .address-col-7 {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  #footer .info-address .address-col-7 .quick-contact,
+  #footer .info-address .address-col-7 .popular-tags {
+    width: 50%;
+    padding: 0;
+  }
+
+  #footer h4 {
+    font-size: 25px;
+  }
+
+  #footer .quick-contact p {
+    font-size: 20px;
+  }
+
+  #footer .link-footer .groups-link {
+    width: 60%;
+    padding: 1% 20%;
+  }
+
+  #footer .link-footer .groups-link a {
+    font-size: 20px;
+  }
+
+  #banner {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  #header .logo img {
+    width: 50%;
+    height: 50%;
+    margin: 10%;
+  }
+
+  #header .ti-menu {
+    font-size: 30px;
+  }
+
+  #banner .content-banner {
+    width: 70%;
+    margin: 10% 0 0;
+  }
+
+  #banner .content-banner p {
+    font-size: 15px;
+  }
+
+  #banner .content-banner .repon {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  #banner .btn-start {
+    font-size: 15px;
+  }
+
+  #banner .group-social-network {
+    margin: 15% 0 5%;
+  }
+
+  #banner .group-social-network > div {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .body-building .clasess h3,
+  .body-building .standard h3,
+  .body-building .premium h3 {
+    font-size: 20px;
+  }
+
+
+  .pictures-about-us {
+    display: none;
+  }
+
+  .about-us .content {
+    width: 100%;
+  }
+
+  .body-building .clasess p,
+  .body-building .standard p,
+  .body-building .premium p {
+    font-size: 15px;
+  }
+
+  .content button {
+    width: 50%;
+  }
+
+  h1,
+  .title h3,
+  .recent-news h1,
+  .title-test-monials h1,
+  .meet-our-team .title-meet-team h1 {
+    font-size: 25px;
+  }
+
+  .our-clasess .columns .title-pictures-clasess p {
+    font-size: 10px;
+    line-height: 30px;
+  }
+
+  .content-groups-img h3 {
+    font-size: 20px;
+  }
+
+  .body-building .clasess button, .body-building .standard button, .body-building .premium button {
+    width: 100px;
+    height: 25px;
+  }
+
+  .contact-us {
+    flex-direction: column;
+  }
+
+  .contact-us .contact-form {
+    width: 100%;
+  }
+
+  .contact-us .image-contact {
+    width: 100%;
+  }
+
+  #footer .info-address .address-col-7 {
+    flex-direction: column;
+  }
+
+  #footer .info-address .address-col-7 .quick-contact,
+  #footer .info-address .address-col-7 .popular-tags {
+    width: 100%;
+  }
+
+  #footer .link-footer .groups-link {
+    width: 80%;
+    padding: 0 10%;
+  }
+
+  #footer .link-footer .groups-link a {
+    font-size: 15px;
+  }
+
+  #footer .copyright p {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .modal {
+    width: 100%;
+    display: none;
+    margin: 0px;
+    height: 100%;
+  }
+}
